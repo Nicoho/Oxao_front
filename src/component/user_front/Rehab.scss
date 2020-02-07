@@ -1,0 +1,63 @@
+.Rehab{
+    .title{
+        color:#007A85;
+        font-family: Cambria, sans-serif;
+        margin-top: 50px;
+    }
+
+    text-align: center;
+    .carousel .slide .legend {
+        transition: all .5s ease-in-out;
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        margin-left: -45%;
+        width: 90%;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.514); 
+        color:#B0F2B6;
+        padding: 10px;
+        font-size: 14px;
+        opacity: 0.9;
+        transition: opacity .35s ease-in-out;
+    }
+    .carousel img {
+        width: 150%;
+    }
+    .rehab-button{
+        font-weight: bold;
+        background-color: white;
+        color: #007A85;
+        border: 2px solid #007A85;
+        padding: 6px;
+        border-radius: 4px;
+        margin-bottom: 25px;
+        box-shadow: 1px 1px 1px #007A85;
+    }
+    
+    .carousel .thumb {
+        transition: border .15s ease-in;
+        display: inline-block;
+        width: 80px;
+        margin-right: 28px;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 3px solid #fff;
+        padding: 2px;
+    }
+    .control-arrow {
+        width:180px;
+    }
+    .text-rehab{
+        margin: 3px;
+        margin-bottom:30px;
+        margin-top:30px;
+    }
+    .carousel .thumbs-wrapper{
+        display:none;
+    }
+p{
+    color: #719499;
+}
+}
+

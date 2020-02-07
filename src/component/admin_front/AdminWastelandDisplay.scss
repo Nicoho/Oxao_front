@@ -1,0 +1,59 @@
+@import "./formAdmin.scss";
+
+.AdminWastelandDisplay {
+  @include admin-field;
+  position: relative;
+  text-align: center;
+  border: 2px solid #007a85;
+  border-radius: 10px;
+
+  img.leaf {
+    position: absolute;
+    top: 0px;
+    right: -42px;
+    background-color: white;
+    border-bottom: none;
+    transform: rotate(15deg);
+  }
+}
+
+.wastelandDisplay {
+  .labelField {
+    display: flex;
+    position: relative;
+    vertical-align: center;
+    font-size: 20px;
+
+    .adminField {
+      margin: 10px auto;
+    }
+
+    textarea {
+      display: block;
+      width: 240px;
+      resize: none;
+    }
+
+    .wastelandImg {
+      width: 80%;
+    }
+  }
+
+  label {
+    text-align: center;
+  }
+
+  input,
+  select,
+  textarea {
+    text-align: center;
+    margin: 30px auto;
+    border-color: #719499;
+    width: 80%;
+    border-radius: 5px;
+  }
+
+  img {
+    width: 80%;
+  }
+}

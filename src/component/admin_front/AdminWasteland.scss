@@ -1,0 +1,22 @@
+.AdminWasteland {
+  h2 {
+    text-align: center;
+    margin-top: 60px;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    font-weight: bold;
+    background-color: white;
+    color: #007A85;
+    border: 2px solid #007A85;
+    padding: 6px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #007A85;
+    margin-bottom: 10px;
+  }
+}

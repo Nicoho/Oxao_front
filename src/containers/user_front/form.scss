@@ -1,0 +1,9 @@
+@mixin field($width, $height) {
+  display: block;
+  margin: 30px auto;
+  width: $width;
+  height: $height;
+  border: solid green 2px;
+  border-radius: 5px;
+  text-align: center;
+}

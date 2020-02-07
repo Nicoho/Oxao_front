@@ -1,0 +1,62 @@
+.RehabTotal{
+    text-align: center;
+    .carousel .slide .legend {
+       transition: all .5s ease-in-out;
+       position: absolute;
+       bottom: 20px;
+       left: 50%;
+       margin-left: -45%;
+       width: 90%;
+       border-radius: 5px;
+       background: rgba(0, 0, 0, 0.514);
+       color:#B0F2B6;
+       padding: 10px;
+       font-size: 16px;
+       opacity: 0.9;
+       transition: opacity .35s ease-in-out;
+    }
+    .carousel img {
+        width: 150%;
+    }
+    .carousel .thumb {
+        transition: border .15s ease-in;
+        display: inline-block;
+        width: 80px;
+        margin-right: 28px;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 3px solid #fff;
+        padding: 2px;
+    }
+    .control-arrow {
+        width:180px;
+    }
+    .container-rehab img{
+      height: 374px;
+    }
+    .carousel{
+      background: black;
+    }
+    p{
+      color: #719499;
+      margin-left: 18px;
+      margin-right: 18px;
+    }
+    hr{
+      border-top: 1px solid #B0F2B6;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    h1, h2{
+      color: #007A85;
+    }
+    .header-rehab{
+      border-top: 1px solid #B0F2B6;
+      border-bottom: 1px solid #B0F2B6;
+      margin-bottom: 40px;
+      padding-bottom: 18px;
+      padding-top: 18px;
+    }
+}

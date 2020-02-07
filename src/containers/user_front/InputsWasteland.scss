@@ -1,0 +1,53 @@
+@import "./form.scss";
+
+.InputsWasteland {
+  textarea {
+    @include field(80%, 70px);
+    text-align: center;
+    border-color: #719499;
+    &:active {
+      @include field(80%, 70px);
+    }
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  input {
+    @include field(80%, 40px);
+    margin-bottom: 30px;
+    border-color: #719499;
+  }
+  .button-field {
+    @include field(80%, 40px);
+    border-radius:12px 0 12px 0;
+	  background-color: white;
+    color: #007A85;
+    border: 2px solid #007A85;
+    padding: 6px;
+    margin-bottom: 60px;
+    box-shadow: 1px 1px 1px #007A85;
+    font-weight: bold;
+  }
+  select {
+    @include field(80%, 100%);
+    border-color: #719499;
+    padding-top: 1em;
+  }
+  label, p {
+    text-align: center;
+    color: #719499;
+  }
+  .option-color{
+    color: #719499;
+  }
+  
+
+  hr{
+    border-top: 1px solid #B0F2B6;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}

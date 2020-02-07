@@ -1,0 +1,99 @@
+.Camera {
+    &.open .webcam {
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        padding: 10px;
+        max-height: 100vh;
+        background: black;
+        color: white;
+        z-index: 10000;
+        box-sizing: border-box;
+
+        .webcam-opt {
+            display: flex;
+            align-items: center;
+            width: 100%;
+
+            p {
+                flex-grow: 1;
+                margin: 5px 0;
+                text-align: center;
+            }
+
+            button {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                margin-right: 10px;
+                border-radius: 50%;
+                background-color: white;
+                text-align: center;
+                color: #719499;
+            }
+        }
+
+        .webcam-video {
+            flex-grow: 1;
+            margin-bottom: 5px;
+        }
+
+
+        .infos-webcam {
+            text-align: center;
+            font-weight: bold;
+
+            span {
+                color: green;
+            }
+        }
+
+        .webcam-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 83px;
+
+            .photo-button {
+                padding: 18px 12px 12px;
+                background-color: white;
+                border-radius: 25%;
+                color: #719499;
+
+                &:disabled {
+                    background-color: #c7c7c7;
+
+                    .fa-camera {
+                        color: grey;
+                        opacity: 0.3;
+                    }
+                }
+            }
+        }
+
+        .images{
+            display: flex;
+        }
+    }
+
+    button{
+        background: transparent;
+        color: black;
+
+        border-radius: 5px;
+        text-align: center;
+        border: white;
+    }
+    .explain-text{
+        display: flex;
+    }
+    .fa-camera{
+        text-align: center;
+        color: #719499;
+    }
+}

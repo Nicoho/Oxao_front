@@ -1,0 +1,33 @@
+@import './formAdmin.scss';
+
+.AdminRehabForm {
+  @include admin-field;
+  label {
+    display: block;
+    margin-top: 15px;
+    color: #719499;
+    font-weight: bold;
+  }
+  .placement-text{
+    margin: 35px;
+  }
+  select {
+    display: block;
+    width: 250px;
+  }
+  .wastelandImg {
+    width: 100%;
+  }
+  fieldset{
+    width: 500px;
+  }
+  legend{
+    color: #007A85;
+    font-size: 30px;
+    font-weight: bold;
+  }
+ p, input{
+   font-weight: bold;
+    color: #719499;
+  }
+}

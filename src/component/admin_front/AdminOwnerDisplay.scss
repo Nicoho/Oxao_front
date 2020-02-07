@@ -1,0 +1,31 @@
+@import "./formAdmin.scss";
+
+.AdminOwnerDisplay {
+  @include admin-field;
+  position: relative;
+  border: 2px solid #007a85;
+  border-radius: 10px;
+
+  img.leaf {
+    position: absolute;
+    top: 0px;
+    right: -42px;
+    background-color: white;
+    border-bottom: none;
+    transform: rotate(15deg);
+  }
+
+  label {
+    display: block;
+    margin-top: 15px;
+  }
+  label,
+  textarea,
+  input {
+    text-align: center;
+    margin: 30px auto;
+    border-color: #719499;
+    width: 80%;
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,54 @@
+.HomeTitle {
+
+  text-align: center;
+  font-family: Cambria, sans-serif;
+
+  h1 {
+      margin-top: 70px;
+      color: #007A85;
+  }
+
+  .title {
+      font-size: 30px;
+  }
+
+  .goFriches {
+      display: flex;
+      justify-content: center;
+
+      .go {
+        font-weight: bold;
+        background-color: white;
+        color: #007A85;
+        border: 2px solid #007A85;
+        padding: 6px;
+        border-radius: 4px;
+        margin-bottom: 25px;
+        box-shadow: 1px 1px 1px #007A85;
+      }
+      
+  }
+
+  .carousel .slide .legend {
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.514); 
+    color:#B0F2B6;
+    padding: 10px;
+    font-size: 16px;
+    opacity: 0.9;
+    transition: opacity .35s ease-in-out;
+}
+.control-arrow {
+    display: none;
+}
+.carousel img {
+    width: 150%;
+}
+
+}

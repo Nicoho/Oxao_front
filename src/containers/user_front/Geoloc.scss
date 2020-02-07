@@ -1,0 +1,21 @@
+.Geoloc {
+display: flex;
+    button{
+        background: transparent;
+        color: #B0F2B6;
+
+        border-radius: 5px;
+        text-align: center;
+        border: white;
+    }
+    .position-desc{
+        margin-left: 55px;
+    }
+    p{
+        text-align: center;
+        margin-left: 22px;
+    }
+    .fa-location-arrow{
+        text-align: center;
+    }
+}

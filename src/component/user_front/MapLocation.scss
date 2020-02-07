@@ -1,0 +1,38 @@
+.map-container{
+    .leaflet-container,
+    .leaflet-touch,
+    .leaflet-retina,
+    .leaflet-fade-anim,
+    .leaflet-grab,
+    .leaflet-touch-drag,
+    .leaflet-touch-zoom {
+        z-index: 0;
+    }
+    .size-icon{
+        width: 10px;
+    }
+    .green-icon{
+        width: 10px;
+    }
+    .group-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    p{
+        font-style: italic;
+        font-size: 10px;
+        text-align:center;
+        margin-bottom: 40px;
+    }
+    .position-text{
+        margin-left: 22px;
+    }
+}
+
+.title{
+    color:#007A85;
+    font-family: Cambria, sans-serif;
+    text-align:center;
+    margin-top:0px;;
+}
